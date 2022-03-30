@@ -1,2 +1,0 @@
-[07-Nov-2015 16:06:26 America/Chicago] PHP Strict Standards:  Only variables should be passed by reference in /home/d/public_html/fxwx/vehicle/new.php on line 22
-[07-Nov-2015 18:18:24 America/Chicago] PHP Parse error:  syntax error, unexpected ''.'' (T_CONSTANT_ENCAPSED_STRING) in /home/d/public_html/fxwx/vehicle/edit.php on line 13
