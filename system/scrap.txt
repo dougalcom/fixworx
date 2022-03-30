@@ -1,0 +1,65 @@
+$status = 1; $sthandle->bindParam(':status', $status);
+$sthandle->bindParam(':language_pref', $_REQUEST['language_pref']);
+$sthandle->bindParam(':prefix', $_REQUEST['prefix']);
+$sthandle->bindParam(':firstname', $_REQUEST['firstname']);
+$sthandle->bindParam(':lastname', $_REQUEST['lastname']);
+$sthandle->bindParam(':postfix', $_REQUEST['postfix']);
+$sthandle->bindParam(':address1', $_REQUEST['address1']);
+$sthandle->bindParam(':address2', $_REQUEST['address2']);
+$sthandle->bindParam(':address3', $_REQUEST['address3']);
+$sthandle->bindParam(':city', $_REQUEST['city']);
+$sthandle->bindParam(':state', $_REQUEST['state']);
+$sthandle->bindParam(':postalcode', $_REQUEST['postalcode']);
+$sthandle->bindParam(':country', $_REQUEST['country']);
+$sthandle->bindParam(':phone1', $_REQUEST['phone1']);
+$sthandle->bindParam(':phone2', $_REQUEST['phone2']);
+$sthandle->bindParam(':phone3', $_REQUEST['phone3']);
+$sthandle->bindParam(':phone4', $_REQUEST['phone4']);
+$sthandle->bindParam(':phone5', $_REQUEST['phone5']);
+$sthandle->bindParam(':phone6', $_REQUEST['phone6']);
+$sthandle->bindParam(':can_sms', $_REQUEST['can_sms']);
+$sthandle->bindParam(':email', $_REQUEST['email']);
+$sthandle->bindParam(':notes', $_REQUEST['notes']);
+
+
+INSERT INTO fxwx_customers (status, 
+language_pref,
+prefix, 
+firstname, 
+lastname, 
+postfix,
+address1,
+address2, 
+address3, 
+city, 
+state, 
+postalcode, 
+country, 
+phone1, 
+phone2, 
+phone3, 
+phone4, 
+phone5, 
+phone6, 
+can_sms, 
+email, 
+notes) 
+
+
+value (:status, 
+:language_pref, 
+prefix, :firstname, :lastname, :postfix, :address1, :address2, :address3, :city, :state, :postalcode, :country, :phone1, :phone2, :phone3, :phone4, :phone5, :phone6, :can_sms, :email, :notes
+
+
+ticket_id
+vehicle_id
+shop_id
+status
+notes
+created_on
+created_by_user_id
+updated_on
+updated_by_user_id
+mileage_in
+mileage_out
+phone_pref
